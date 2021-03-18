@@ -278,3 +278,16 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* lists */
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-headings);
+}
+
+.list__inline {
+  display: inline-block;
+  margin-right: 2rem;
+}
