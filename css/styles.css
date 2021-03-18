@@ -312,3 +312,33 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+/* buttons */
+
+.btn {
+  border-radius: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+}
+.btn-info {
+  background: var(--color-secondary);
+}
+.btn-warning {
+  background: var(--color-tertiary);
+}
+
+.btn-outline-primary {
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
