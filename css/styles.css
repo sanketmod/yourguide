@@ -179,6 +179,14 @@ template {
   display: none;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* typography */
+
 :root {
   --color-primary: #1d65a6;
   --color-secondary: #72a2c0;
@@ -319,6 +327,7 @@ a {
   border-radius: 10px;
   font-size: 1.8rem;
   font-weight: 600;
+  margin: 1rem 0;
   text-transform: uppercase;
 }
 
