@@ -189,10 +189,11 @@ template {
 
 :root {
   --color-primary: #1d65a6;
-  --color-secondary: #72a2c0;
+  --color-secondary: #01acca;
   --color-tertiary: #f2a104;
   --color-headings: #192e5b;
   --color-body: #918ca4;
+  --color-white: #fff;
   --border-radius: 10px;
 }
 
@@ -266,12 +267,12 @@ a {
 
 .badge--primary {
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .badge--secondary {
   background: var(--color-secondary);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .badge--samll {
@@ -366,4 +367,22 @@ a {
   .form-control {
     font-size: 1.5rem;
   }
+}
+
+/* cards */
+.card {
+  border-radius: 30px;
+  width: 28rem;
+  margin: 4rem;
+  overflow: hidden;
+}
+
+.card--primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.card--secondary {
+  background: var(--color-secondary);
+  color: var(--color-white);
 }
