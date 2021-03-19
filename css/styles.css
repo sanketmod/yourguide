@@ -351,3 +351,17 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* inputs */
+
+.form-control {
+  border-radius: 10px;
+  font-size: 2rem;
+  width: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .form-control {
+    font-size: 1.5rem;
+  }
+}
