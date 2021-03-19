@@ -309,6 +309,16 @@ a {
   height: 40px;
 }
 
+.icon--star {
+  width: 20px;
+  height: 20px;
+}
+
+.icon--rupee {
+  width: 30px;
+  height: 30px;
+}
+
 .icon--primary {
   fill: var(--color-primary);
 }
@@ -372,7 +382,7 @@ a {
 /* cards */
 .card {
   border-radius: 30px;
-  width: 28rem;
+  width: 35rem;
   margin: 4rem;
   overflow: hidden;
 }
@@ -385,4 +395,39 @@ a {
 .card--secondary {
   background: var(--color-secondary);
   color: var(--color-white);
+}
+
+.card__name {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+.card__place {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+.card__price {
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+
+.card__rating {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 3rem;
+}
+
+.card__reviews {
+  margin-top: 5.3rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.card__reviews__count {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
 }
