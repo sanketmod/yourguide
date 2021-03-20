@@ -385,6 +385,7 @@ a {
   width: 28rem;
   margin: 4rem;
   overflow: hidden;
+  position: relative;
 }
 
 .card--primary {
@@ -423,6 +424,13 @@ a {
 .card__reviews__count {
   text-align: center;
   font-weight: 700;
+}
+
+.card .card--popular::before {
+  content: url(/images/badge.png);
+  position: absolute;
+  top: 0;
+  right: 5%;
 }
 
 @media screen and (min-width: 1024px) {
