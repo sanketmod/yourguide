@@ -193,6 +193,7 @@ template {
   --color-tertiary: #f2a104;
   --color-headings: #192e5b;
   --color-body: #918ca4;
+  --color-body-darker: #5b5477;
   --color-white: #fff;
   --border-radius: 10px;
 }
@@ -441,5 +442,82 @@ a {
   .card__price,
   .card__place {
     font-size: 1.5rem;
+  }
+}
+
+/* testimonials */
+
+.testimonial {
+  padding: 3rem;
+}
+
+.testimonial__image {
+  width: 100%;
+  border-radius: 30px;
+  height: 400px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: var(--color-body-darker);
+}
+
+.quote__author {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.quote__place {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.quote::before {
+  content: open-quote;
+}
+.quote::after {
+  content: close-quote;
+}
+
+.quote--icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    font-size: 2rem;
+    color: var(--color-body-darker);
+  }
+  .quote__author {
+    font-size: 2.4rem;
+  }
+
+  .quote__place {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .quote {
+    font-size: 2rem;
+    color: var(--color-body-darker);
+  }
+  .quote__author {
+    font-size: 1.6rem;
+  }
+
+  .quote__place {
+    font-size: 1.2rem;
+  }
+  .testimonial {
+    padding: 0;
+  }
+
+  .quote--icon {
+    width: 20px;
+    height: 20px;
   }
 }
