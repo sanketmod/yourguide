@@ -396,6 +396,11 @@ a {
   margin: 4rem;
   overflow: hidden;
   position: relative;
+  transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card--primary {
@@ -574,4 +579,10 @@ a {
 
 .hero__content {
   margin-top: 15rem;
+}
+
+/* guides plans */
+
+.guide--plans {
+  margin: 4rem auto;
 }
