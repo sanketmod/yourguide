@@ -214,6 +214,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
+  line-height: 1.1;
 }
 
 h1 {
@@ -344,6 +345,13 @@ a {
   text-transform: uppercase;
 }
 
+.btn .icon {
+  width: 2rem;
+  height: 4rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
 .btn-primary {
   background: var(--color-primary);
 }
@@ -369,8 +377,9 @@ a {
 
 .form-control {
   border-radius: var(--border-radius);
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: auto;
+  height: 5rem;
   margin: 1rem 0;
 }
 
@@ -555,4 +564,14 @@ a {
   .nav--bar--card {
     display: none;
   }
+}
+
+/* hero */
+
+.hero__image {
+  width: 100%;
+}
+
+.hero__content {
+  margin-top: 15rem;
 }
