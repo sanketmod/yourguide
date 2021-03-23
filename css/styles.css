@@ -586,3 +586,28 @@ a {
 .guide--plans {
   margin: 4rem auto;
 }
+
+/* footer */
+
+.footer {
+  background: #1c1c1c;
+  text-align: center;
+}
+
+.footer a {
+  color: #999;
+  transition: color 0.4s;
+}
+.footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.footer .icon:hover {
+  transform: scale(1.1);
+}
