@@ -544,7 +544,7 @@ a {
 
 @media (max-width: 768px) {
   .navbar-collapse {
-    margin: 0;
+    margin-top: 4rem;
     position: relative;
     left: 0;
     height: 100%;
