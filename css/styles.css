@@ -393,7 +393,7 @@ a {
 .card {
   border-radius: 30px;
   width: 28rem;
-  margin: 4rem;
+  margin: 2rem auto;
   overflow: hidden;
   position: relative;
   transition: transform 0.3s ease-out;
@@ -544,15 +544,16 @@ a {
 
 @media (max-width: 768px) {
   .navbar-collapse {
+    margin: 0;
     position: relative;
     left: 0;
-    height: 100vh;
+    height: 100%;
     left: -75%;
     transition: height 0s ease;
   }
 
   .navbar-collapse.show {
-    height: 100vh;
+    height: 100%;
     left: 0;
     transition: left 0.4s ease-in-out;
   }
@@ -578,7 +579,16 @@ a {
 }
 
 .hero__content {
-  margin-top: 15rem;
+  margin-top: 25rem;
+}
+
+@media screen and (max-width: 992px) {
+  .hero__content {
+    margin-top: 10rem;
+  }
+  .hero__image {
+    margin: 8rem 0;
+  }
 }
 
 /* guides plans */
