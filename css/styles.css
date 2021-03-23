@@ -338,10 +338,7 @@ a {
 /* buttons */
 
 .btn {
-  border-radius: var(--border-radius);
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin: 1rem 0;
+  padding: 1rem 3rem;
   text-transform: uppercase;
 }
 
@@ -376,10 +373,9 @@ a {
 /* inputs */
 
 .form-control {
-  border-radius: var(--border-radius);
   font-size: 1.8rem;
-  width: auto;
-  height: 5rem;
+  width: 100%;
+  height: 4rem;
   margin: 1rem 0;
 }
 
